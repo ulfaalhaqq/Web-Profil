@@ -1,0 +1,177 @@
+/* Montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background: white;
+  padding: 40px 0px 40px 0px;
+  border-bottom: 2px solid blue;
+}
+.container {
+  width: 1300px;
+  margin: 0px auto;
+  background: transparent;
+}
+header #logo {
+  width: 20%;
+  float: left;
+}
+header nav {
+  width: 80%;
+  float: left;
+  padding-top: 8px;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+header nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+header nav ul a {
+  display: block;
+  padding: 0 1em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: blue;
+}
+header nav ul a:hover {
+  color: #666;
+}
+header nav ul li {
+  float: left;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+section {
+  padding: 30px 0px;
+}
+#profil {
+  background: #5271ff;
+  min-height: 300px;
+}
+#profil #profil-content {
+  width: 60%;
+  float: left;
+  padding: 70px 0;
+}
+#profil #profil-content h2 {
+  color: #fff;
+}
+#profil p {
+  font-size: 30px;
+  font-family: Montserrat, serif;
+}
+#profil #profil-img {
+  width: 40%;
+  float: right;
+  min-height: 400px;
+}
+#profil #profil-img img {
+  height: 400px;
+}
+#profil::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#pengalaman {
+  border-top: 1px solid #ccc;
+}
+#pengalaman .container {
+  border-bottom: 1px solid #666;
+  padding: 70px 0px;
+}
+#pengalaman .container article {
+  width: 65%;
+  float: left;
+  padding-right: 20px;
+}
+#pengalaman table,
+#pengalaman table th,
+#pengalaman table td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+#pengalaman table th,
+#pengalaman table td {
+  padding: 10px;
+}
+#pengalaman .container aside {
+  width: 25%;
+  float: right;
+  background: #ddd;
+  border-radius: 4px;
+  padding: 0px 30px 20px;
+}
+#pengalaman .container::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+#kontak form {
+  width: 50%;
+}
+#kontak form label {
+  width: 20%;
+  display: inline-block;
+}
+#kontak form input[type="text"],
+#kontak form input[type="email"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#kontak form select {
+  height: 40px;
+  padding: 10px 15px;
+  width: 30%;
+  border: 1px solid #666;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+#kontak form textarea {
+  padding: 10px 15px;
+  width: 85%;
+  border: 1px solid #666;
+  border-radius: 8px;
+  display: inline-block;
+}
+#kontak form input[type="submit"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background: #ccc;
+  cursor: pointer;
+}
+#kontak form input[type="submit"]:hover {
+  background: #aaa;
+}
+footer {
+  min-height: 40px;
+  text-align: center;
+  font-family: Montserrat, serif;
+  font-size: 14px;
+  color: #f1f1f1;
+  background: #222;
+  border-top: 5px solid #5271ff;
+  padding: 20px 0;
+  margin-top: 60px;
+}

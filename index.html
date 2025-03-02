@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Profil</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img
+            src="images/logo.png"
+            alt="LogoWebsite"
+            width="auto"
+            height="50px"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#pengalaman">Pendidikan dan Pekerjaan</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="main">
+      <section id="profil">
+        <div class="container">
+          <div id="profil-content">
+          <h2>Hai, Nama saya Ulfa Abidah Al Haq</h2>
+          <p>Saya adalah seorang profesional dengan pengalaman di bidang TI.</br>
+            Saya memiliki berbagai keterampilan baik soft skill maupun hard skill yang mendukung karir saya.</p>
+          </div>
+          <div id="profil-img">
+              <img src="images/images.png">
+          </div>
+        </div>
+      </section>
+      <section id="pengalaman">
+        <div class="container">
+          <article>
+            <h2>Riwayat Pendidikan</h2>
+            <table width="100%">
+              <thead>
+                <tr>
+                  <th rowspan="2">Tahun</th>
+                  <th colspan="2">Pendidikan</th>
+                </tr>
+                <tr>
+                  <th>Jurusan</th>
+                  <th>Universitas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2024-2027</td>
+                  <td>D3 Teknologi Informasi</td>
+                  <td>Universitas Brawijaya</td>
+                </tr>
+                <tr>
+                  <td>2027-2029</td>
+                  <td>S1 Computer science</td>
+                  <td>National University of Singapore</td>
+                </tr>
+              </tbody>
+            </table><br>
+            <h2>Riwayat Pekerjaan</h2>
+            <table width="100%">
+              <thead>
+                <tr>
+                  <th>Tahun</th>
+                  <th>Posisi</th>
+                  <th>Perusahaan</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2026-2027</td>
+                  <td>Junior Web Developer</td>
+                  <td>Dicoding</td>
+                </tr>
+                <tr>
+                  <td>2027-2029</td>
+                  <td>Senior Web Developer</td>
+                  <td>Google</td>
+                </tr>
+                </tbody>
+              </table>
+          </article>
+          <aside>
+            <h3>Soft Skills</h3>
+            <ol>
+              <li>Komunikasi</li>
+              <li>Kepemimpinan</li>
+              <li>Manajemen Waktu</li>
+              <li>Kerja Tim</li>
+            </ol>
+            <h3>Hard Skills</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>PHP, Python</li>
+              <li>SQL, NoSQL</li>
+              <li>Framework Laravel, Django</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+      <section id="kontak">
+        <div class="container">
+          <h2>Kontak Kami</h2>
+          <form action="#" method="POST">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name"
+            required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+            required><br><br>
+            <label for="topik">Topik:</label>
+            <select name="topik">
+              <option value="Pesan">Pesan</option>
+              <option value="Saran">Saran</option>
+            </select><br>
+            <label for="message">Pesan:</label><br><br>
+            <textarea id="message" name="message" rows="4"
+            required></textarea><br><br>
+            <input type="submit" value="Kirim">
+            </form>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 WebQ. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+  </body>
+</html>
